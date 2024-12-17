@@ -1,6 +1,6 @@
 # %%
 import math
-from foundation import (
+from cadbuildr.foundation import (
     show,
     Sketch,
     Part,
