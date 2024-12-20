@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "geneva_drive"
+version = "0.1.0"
+description = "Toy model of the Geneva Drive"
+packages = [{include = "geneva_drive"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cadbuildr-foundation = "^0.0.0.14"
+
+[tool.cadbuildr]
+logo = "logo.png"
+
+[tool.cadbuildr.dependencies]
+cadbuildr-foundation = "^0.0.0.14"
